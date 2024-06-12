@@ -4,7 +4,7 @@ let songs;
 let currFolder;
 
 function secondsToMinutesSeconds(seconds) {
-    // Ensure seconds is a valid number
+    // Ensure  seconds is a valid number
     if (isNaN(seconds) || seconds < 0) {
         return "00:00";
     }
